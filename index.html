@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estée Lauder Nighttime Skincare</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="brand"> 
+            <div class="brand-name">Estée Lauder</div>
+        </div>
+        <div class="nav-toggle">
+            <span>Menu</span>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#routine">Routine</a></li>
+                <li><a href="#quiz">Quiz</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <video class="hero-video" autoplay loop>
+            <source src="img/SP24_ANR_X5_Hero_Film_30s_1920x1080_Sound_Superless_GLOBAL_UNCOMP.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <div class="hero-content">
+            <h2>Transform Your Nighttime Skincare Routine</h2>
+            <p>Discover the power of Estée Lauder's best-selling nighttime products.</p>
+            <a href="#products" class="btn hero-btn">Explore Products</a>
+        </div>
+    </section>
+
+
+    <!-- Products Section -->
+    <section id="products" class="products">
+        <div class="container">
+            <h2>Our Best-Selling Nighttime Products</h2>
+            <div class="product-grid">
+                <div class="product">
+                    <img src="img/SP24_DIGITAL_ANR_X5_PRODUCT_KV_R72_REL.jpg" alt="Advanced Night Repair Serum">
+                    <h3>Advanced Night Repair Serum</h3>
+                    <p>Synchronized Multi-Recovery Complex</p>
+                    <a href="anr_serum.html" class="btn">Buy Now</a>
+                </div>
+                <div class="product">
+                    <img src="img/ANR_Treatment.jpg" alt="Advanced Night Repair Treatment">
+                    <h3>Advanced Night Repair Treatment</h3>
+                    <p>Overnight Treatment</p>
+                    <a href="anr_treatment.html" class="btn">Buy Now</a>
+                </div>
+                <div class="product">
+                    <img src="img/RS+night.jpg" alt="Revitalizing Supreme+ Night Moisturizer">
+                    <h3>Revitalizing Supreme+ Night Moisturizer</h3>
+                    <p>Intensive Restorative Creme</p>
+                    <a href="anr_Moisturizer.html" class="btn">Buy Now</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="education">
+        <div class="container">
+             <img src="img/1.png" alt="Revitalizing Supreme+ Night Moisturizer" class="imageone">
+            <h2>Why Nighttime Skincare Matters</h2>
+            <p>Nighttime is when your skin naturally repairs itself. Using the right products during this time can enhance the skin's renewal process, leading to a healthier, more radiant complexion.</p>
+        </div>
+    </section>
+
+    <!-- Skincare Routine Section -->
+    <section id="routine" class="routine">
+        <div class="container">
+            <div class="routine-video">
+                <video src="img/FL24_ANR_Eclipse_Hero_Film_15s_1080x1080_Sound_Superless_GLOBAL_COMP.mp4" autoplay loop muted controls></video>
+            </div>
+            <div class="routine-content">
+                <h2>Nighttime Skincare Routine</h2>
+                <p>Follow these steps for a complete nighttime skincare regimen:</p>
+                <ol>
+                    <li>Cleanse your face to remove makeup and impurities.</li>
+                    <li>Apply the Advanced Night Repair Serum to hydrate and rejuvenate your skin.</li>
+                    <li>Use the Advanced Night Repair Overnight Treatment for an intensive overnight repair.</li>
+                    <li>Finish with the Revitalizing Supreme+ Night Moisturizer for deep hydration and restoration.</li>
+                </ol>
+            </div>
+        </div>
+    </section>
+
+    <!-- Interactive Skincare Quiz Section -->
+    <section id="quiz" class="quiz">
+        <div class="container">
+            <h2>Find Your Perfect Nighttime Routine</h2>
+            <p>Take our quick quiz to discover the best products for your skin type and concerns.</p>
+            <form id="skincare-quiz">
+                <label for="skin-type">What is your skin type?</label>
+                <select id="skin-type">
+                    <option value="normal">Normal</option>
+                    <option value="oily">Oily</option>
+                    <option value="dry">Dry</option>
+                    <option value="combination">Combination</option>
+                </select>
+
+                <label for="concern">What is your primary skin concern?</label>
+                <select id="concern">
+                    <option value="aging">Aging</option>
+                    <option value="hydration">Hydration</option>
+                    <option value="texture">Texture</option>
+                    <option value="brightening">Brightening</option>
+                </select>
+
+                <button type="submit" class="btn">Find My Routine</button>
+            </form>
+            <div id="quiz-result"></div>
+        </div>
+    </section>
+
+    
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Estée Lauder. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+
+</html>
+
